@@ -12,7 +12,7 @@ description: 记录点滴，构成回忆
 ## 作者
 author: 禹&敏
 ## 网站使用的语言
-language: 
+language:
 ## 网站时区（亚洲/上海）
 timezone: Asia/Shanghai
 
@@ -51,9 +51,9 @@ new_post_name: :year-:month-:day-:title.md
 ## 预设布局
 default_layout: post
 ## 把标题转换成title case
-titlecase: false 
+titlecase: false
 ## 在新标签中打开链接
-external_link: true 
+external_link: true
 ## 把文件名转换成（1）小写或（2）大写
 filename_case: 0
 ## 显示草稿
@@ -108,4 +108,4 @@ deploy:
   type: git
   repo: https://github.com/hxjmy/hxjmy.github.io.git
   branch:   master
-  message:  Site update:{{now("YYYY_MM-DD HH:mm:ss")}}
+  message:  Site update:{{now("YYYY-MM-DD HH:mm:ss")}}
